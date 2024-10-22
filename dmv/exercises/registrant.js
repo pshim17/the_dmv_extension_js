@@ -8,8 +8,12 @@ function createRegistrant(name, age, permit = false) {
   }
 }
 
+function earnPermit(){
+
+}
+
 module.exports = {
-  createRegistrant
-  // earnPermit,
+  createRegistrant,
+  earnPermit
   // takeLicenseExam
 }
