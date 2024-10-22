@@ -45,7 +45,7 @@ describe('Registrant', function() {
     assert.equal(earnPermit(registrant), 'You have successfully earned a permit!');
   });
 
-  it.skip('should not be able to earn a permit if under 16', function() {
+  it('should not be able to earn a permit if under 16', function() {
     var registrant = createRegistrant('Anita', 10, false);
 
     assert.equal(earnPermit(registrant), 'Sorry, you are not able to earn a permit right now.');
