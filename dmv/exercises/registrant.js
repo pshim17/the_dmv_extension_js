@@ -8,8 +8,10 @@ function createRegistrant(name, age, permit = false) {
   }
 }
 
-function earnPermit(){
-
+function earnPermit(registrant){
+  if (registrant.age >= 16) {
+    return 'You have successfully earned a permit!'
+  } 
 }
 
 module.exports = {
