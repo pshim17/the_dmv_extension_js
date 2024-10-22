@@ -19,6 +19,8 @@ function earnPermit(registrant){
 function takeLicenseExam(registrant) {
   if (registrant.permit == true) {
     return 'Great job! You can take your test.'
+  } else {
+    return 'Sorry, you need to earn a permit first.'
   }
 }
 
